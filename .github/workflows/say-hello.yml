@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello, GitHub Actions!"
+
+      - name: Show Node.js version
+        run: node -v
